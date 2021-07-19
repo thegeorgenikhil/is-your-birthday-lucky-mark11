@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Luck App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a7cf34d87a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="interface">
+      <h1>Enter Your Birthdate and lucky number to continue...</h1>
+
+      <h3>Select your Birth date:</h3>
+      <input type="date" name="" id="date" class="input"  />
+
+      <h3>Enter your Lucky Number:</h3>
+      <input type="number" name="" id="lucky-number" class="input" />
+
+      <button id="check-btn" class="btn">check</button>
+
+      <div>
+        <div class="hidden" id="lucky">
+          <h1>Hurray!!You are a lucky person!</h1>
+          <img src="img\undraw_happy_birthday_s72n.svg" alt="" />
+        </div>
+        <div class="hidden" id="not-lucky">
+          <h1>Oops!!Your birthday is not a lucky number!</h1>
+          <img src="img\undraw_feeling_blue_4b7q.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="link-div">
+          <a class="social-links"  href="/"><i class="fab fa-instagram"></i></a>
+          <a  class="social-links" href="/"><i class="fab fa-twitter"></i></a>
+          <a class="social-links"  href="/"><i class="fas fa-globe-americas"></i></a>
+          <a class="social-links"  href="/"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="legal">
+          © 2021 | nikhilgeorge | <a href="/">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

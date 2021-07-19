@@ -1,0 +1,58 @@
+@import url(//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy);
+
+body{
+    font-family:"Gilroy" ;
+    background-color: #2a9d8f;
+    color: #264653;
+}
+
+.interface{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+
+.input{
+    width: 10rem;
+    height: .7rem;
+    border-radius: 10px;
+    padding: 1rem;
+    border: none;
+}
+
+.btn{
+    display: block;
+    width: 5rem;
+    height: 2rem;
+    margin: 1rem  auto;
+    background-color:#003049 ;
+    border-radius: 10px;
+    color: white;
+}
+
+.social-links{
+    font-size: 1.5rem;
+    color: #264653;
+    padding: .5rem;
+}
+
+.link-div{
+    padding: 1rem;
+}
+
+.legal{
+    color: white;
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+img{
+    width: 50%;
+}
