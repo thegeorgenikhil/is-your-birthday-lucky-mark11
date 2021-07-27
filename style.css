@@ -8,7 +8,7 @@ body{
 
 .interface{
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     margin: auto;
     text-align: center;
     padding: 2rem 1rem;
@@ -55,4 +55,20 @@ body{
 
 img{
     width: 50%;
+}
+
+.privacy-notice{
+    background-color: yellow;
+    flex-direction: column;
+    padding: .5rem;
+    display: flex;
+    border: 2px solid black;
+    font-weight: bolder;
+    max-width: 400px;
+    margin: auto;
+}
+
+#close-btn{
+    align-self: flex-end;
+    font-size: 1.2rem;
 }
